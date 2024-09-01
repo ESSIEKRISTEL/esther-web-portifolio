@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+    background-color:#f7f7f7;
+}
+.nav-bar{
+    background-color: #0324b4;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.nav-bar ul{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    
+}
+ li{
+    list-style: none;
+ }
+.nav-bar ul li a{
+    text-decoration:none;
+    font-size: 25px;
+    color: rgb(252, 248, 248);
+}
+.nav-bar ul li a:hover{
+    color: yellow;
+}
+h6{
+    margin-right: 500px;
+    color: white;
+    font-size: 20px;
+   
+}
+.main-div{
+      /* background-color: red; */
+      height: 400px;
+      width: 1366px;
+      margin: auto;
+}
+.content{
+    height:300px;
+    width:300px;
+    /* background-color: rgb(238, 57, 57); */
+    margin-top: 100px;
+    margin-left: 200px;
+    float: left;
+    
+}
+h2{ 
+    font-size: 30px;  
+}
+button{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+    color:#f7f7f7 ;
+    margin-left: 40px;
+}
+
+.pic{
+    height: 300px;
+    width: 300px;
+    /* background-color: rgb(236, 65, 65); */
+    margin-top: 80px;
+    margin-left: 300px;
+    float: left;
+    
+}
+.img{
+    border-radius: 200px 200px ;
+    border: 1px solid black;
+    
+}
+.footer{
+    background-color: #f79516;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    margin-top: 70px;
+   padding: 30px;
+    gap: 30px;
+    margin-left: 500px;
+}
+  
+.fb{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    
+}
+.git{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.insta{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+.whatsapp{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+ .last-footer{
+    background-color: #3f3d3c; 
+ }
+
+.last-footer p{
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    color: #f7f7f7;   
+}
